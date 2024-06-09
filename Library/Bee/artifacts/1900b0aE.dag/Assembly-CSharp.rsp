@@ -404,7 +404,12 @@
 "Assets/Scripts/Hearing/IHear.cs"
 "Assets/Scripts/Hearing/Sound.cs"
 "Assets/Scripts/Hearing/Sounds.cs"
-"Assets/Scripts/InteractSystem.cs"
+"Assets/Scripts/Interactables/CraftingItem.cs"
+"Assets/Scripts/Interactables/InteractSystem.cs"
+"Assets/Scripts/Interactables/Machines/AlcoholMachine.cs"
+"Assets/Scripts/Interactables/Machines/Crusher.cs"
+"Assets/Scripts/Interactables/Machines/Machine.cs"
+"Assets/Scripts/Interactables/ThrowableItem.cs"
 "Assets/Scripts/PlayerCamera.cs"
 "Assets/Scripts/PlayerFootStepSystem.cs"
 "Assets/Scripts/PlayerHealth.cs"
@@ -418,7 +423,6 @@
 "Assets/Scripts/States/AiPatrolState.cs"
 "Assets/Scripts/States/AiState.cs"
 "Assets/Scripts/States/AiStunned.cs"
-"Assets/Scripts/ThrowableItem.cs"
 -langversion:9.0
 
 /deterministic

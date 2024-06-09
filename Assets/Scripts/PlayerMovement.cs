@@ -38,6 +38,7 @@ public class PlayerMovement : MonoBehaviour
 
     private void Update()
     {
+        
         bool previouslyGrounded = footStepSystem.isGrounded; 
 
         footStepSystem.CheckIsGrounded();

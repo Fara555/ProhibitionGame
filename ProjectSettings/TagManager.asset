@@ -5,6 +5,7 @@ TagManager:
   serializedVersion: 2
   tags:
   - Flashlight
+  - Machine
   layers:
   - Default
   - TransparentFX
@@ -14,7 +15,7 @@ TagManager:
   - UI
   - isGround
   - Player
-  - Interactables
+  - Interactable
   - Obstacles
   - Enemy
   - ItemInHand
