@@ -8,7 +8,7 @@ public class CraftingRecipe
 {
     public List<string> requiredItemNames;
     public GameObject resultPrefab;
-    public float craftTime; 
+    public float craftTime;
 }
 
 public class Machine : MonoBehaviour, IInteractable
@@ -20,7 +20,7 @@ public class Machine : MonoBehaviour, IInteractable
 
     [SerializeField] private List<CraftingRecipe> craftingRecipes;
 
-    InteractSystem interactSystem;
+    private InteractSystem interactSystem;
 
     protected virtual void Start()
     {
@@ -51,7 +51,7 @@ public class Machine : MonoBehaviour, IInteractable
 
     private void PutItemInMachine()
     {
-        GameObject objectInHand = InteractSystem.instance.objectInHand;
+        GameObject objectInHand = InteractSystem.instance?.objectInHand;
         if (objectInHand != null)
         {
             IItem itemInHand = objectInHand.GetComponent<IItem>();
@@ -59,7 +59,7 @@ public class Machine : MonoBehaviour, IInteractable
             {
                 itemsInMachine.Add(itemInHand);
                 InteractSystem.instance.DropItem();
-                Destroy(objectInHand); 
+                Destroy(objectInHand);
 
                 CheckForCrafting();
             }
@@ -75,20 +75,19 @@ public class Machine : MonoBehaviour, IInteractable
         {
             if (hit.collider.gameObject.CompareTag("Machine"))
             {
-                Machine machine = hit.collider.GetComponent<Machine>(); 
+                Machine machine = hit.collider.GetComponent<Machine>();
                 if (machine != null)
                 {
-                    machine.ClearItemsInMachine(); 
+                    machine.ClearItemsInMachine();
                     Debug.Log(hit.collider.gameObject.name + " has been cleared");
                 }
             }
         }
     }
 
-
     public void ClearItemsInMachine()
     {
-        if (itemsInMachine.Count > 0) 
+        if (itemsInMachine.Count > 0)
         {
             itemsInMachine.Clear();
         }
@@ -135,6 +134,9 @@ public class Machine : MonoBehaviour, IInteractable
 
     protected virtual void CreateCraftedItem(CraftingRecipe recipe)
     {
-        Instantiate(recipe.resultPrefab, spawnPoint.position, Quaternion.identity);
+        if (spawnPoint != null)
+        {
+            Instantiate(recipe.resultPrefab, spawnPoint.position, Quaternion.identity);
+        }
     }
 }

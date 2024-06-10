@@ -4869,7 +4869,6 @@ MonoBehaviour:
   interactLayer:
     serializedVersion: 2
     m_Bits: 256
-  defaultItem: {fileID: 5871871371883760707}
   itemInDistanceText: {fileID: 705981561}
   mainCamera: {fileID: 0}
   itemContainer: {fileID: 1666918406089996328}
@@ -5080,7 +5079,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2009840734420459442, guid: 5afee56d404662346a40542afd9d6df3, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.738
+      value: 7.1
       objectReference: {fileID: 0}
     - target: {fileID: 2009840734420459442, guid: 5afee56d404662346a40542afd9d6df3, type: 3}
       propertyPath: m_LocalPosition.y
@@ -5695,11 +5694,6 @@ AudioListener:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2993899555510003299}
   m_Enabled: 1
---- !u!1 &5871871371883760707 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 3893483675468973875, guid: 5afee56d404662346a40542afd9d6df3, type: 3}
-  m_PrefabInstance: {fileID: 2100434831120562970}
-  m_PrefabAsset: {fileID: 0}
 --- !u!33 &6396733374837081073
 MeshFilter:
   m_ObjectHideFlags: 0

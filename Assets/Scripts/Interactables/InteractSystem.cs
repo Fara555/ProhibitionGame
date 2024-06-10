@@ -22,7 +22,6 @@ public class InteractSystem : MonoBehaviour
 
     public float interactRange = 5f;
     public LayerMask interactLayer;
-    [SerializeField] private GameObject defaultItem;
     [SerializeField] private TMP_Text itemInDistanceText;
     private List<Transform> targetsInView = new List<Transform>();
     [HideInInspector] public Camera mainCamera;
@@ -47,7 +46,6 @@ public class InteractSystem : MonoBehaviour
     private void Awake()
     {
         if (instance == null) instance = this;
-        PickUp(defaultItem);
 
         mainCamera = Camera.main;
         IItem.playerTransform = GameObject.FindGameObjectWithTag("Player").GetComponent<Transform>();

@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class CraftingItem : MonoBehaviour,IItem, IInteractable
+public class CraftingItem : MonoBehaviour, IItem, IInteractable
 {
     public bool destroyable => false;
 
@@ -10,20 +10,24 @@ public class CraftingItem : MonoBehaviour,IItem, IInteractable
     public int ItemID => itemID;
 
     private InteractSystem interactSystem;
-
+    private Rigidbody rb;
+    private Collider coll;
 
     private void Start()
     {
+        rb = GetComponent<Rigidbody>();
+        coll = GetComponent<Collider>();
+
         interactSystem = InteractSystem.instance;
         if (!interactSystem.equieped)
         {
-            interactSystem.itemRB.isKinematic = false;
-            interactSystem.itemColl.isTrigger = false;
+            rb.isKinematic = false;
+            coll.isTrigger = false;
         }
         else
         {
-            interactSystem.itemRB.isKinematic = true;
-            interactSystem.itemColl.isTrigger = true;
+            rb.isKinematic = true;
+            coll.isTrigger = true;
             InteractSystem.slotFull = true;
         }
 
@@ -49,6 +53,6 @@ public class CraftingItem : MonoBehaviour,IItem, IInteractable
 
     public void Interact()
     {
-        ;
+
     }
 }
