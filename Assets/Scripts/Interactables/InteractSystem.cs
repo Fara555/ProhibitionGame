@@ -12,8 +12,9 @@ public interface IItem
 {
     string ItemName { get; }
     int ItemID { get; }
-
-    static Transform playerTransform { get; set;}
+    float Quality { get; }
+    float Price { get; }
+    static Transform playerTransform { get; set; }
 }
 
 public class InteractSystem : MonoBehaviour
@@ -89,7 +90,7 @@ public class InteractSystem : MonoBehaviour
                         Destroy(hit.collider.gameObject);
                         itemInDistanceText.enabled = false;
                     }
-                    else if (hit.collider.gameObject.TryGetComponent(out CraftingItem craftingItem))
+                    else if (hit.collider.gameObject.TryGetComponent(out CraftingItem craftingItem) || (hit.collider.gameObject.TryGetComponent(out Storage storage)))
                     {
                         PickUp(hit.collider.gameObject);
                     }

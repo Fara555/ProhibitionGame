@@ -6,8 +6,12 @@ public class CraftingItem : MonoBehaviour, IItem, IInteractable
 
     [SerializeField] private string itemName;
     [SerializeField] private int itemID;
+    [SerializeField] private float quality;
+    [SerializeField] private float price;
     public string ItemName => itemName;
     public int ItemID => itemID;
+    public float Quality => quality;
+    public float Price => price;
 
     private InteractSystem interactSystem;
     private Rigidbody rb;
@@ -15,10 +19,10 @@ public class CraftingItem : MonoBehaviour, IItem, IInteractable
 
     private void Start()
     {
+        interactSystem = InteractSystem.instance;
         rb = GetComponent<Rigidbody>();
         coll = GetComponent<Collider>();
 
-        interactSystem = InteractSystem.instance;
         if (!interactSystem.equieped)
         {
             rb.isKinematic = false;
@@ -37,19 +41,6 @@ public class CraftingItem : MonoBehaviour, IItem, IInteractable
     [SerializeField] private LayerMask collisionLayerMask;
     [SerializeField] private LayerMask enemyMask;
     [SerializeField] private bool destroyOnCollide = false;
-
-    private void OnCollisionEnter(Collision collision)
-    {
-        if (collisionLayerMask == (collisionLayerMask | (1 << collision.gameObject.layer)) && !interactSystem.dropped)
-        {
-            if (destroyOnCollide) Destroy(this.gameObject);
-        }
-        if (enemyMask == (enemyMask | (1 << collision.gameObject.layer)) && !interactSystem.dropped)
-        {
-            AiAgent enemy = collision.gameObject.GetComponentInParent<AiAgent>();
-            if (enemy.stateMachine.currentState != AiStateId.Attack) enemy.stateMachine.ChangeState(AiStateId.Stunned);
-        }
-    }
 
     public void Interact()
     {

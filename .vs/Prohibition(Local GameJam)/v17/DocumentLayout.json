@@ -1,30 +1,50 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\UnityProjects\\Prohibition(Local GameJam)\\",
+  "WorkspaceRootPath": "D:\\Unity Projects\\Prohibition(Local GameJam)\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0AA00FCE-1507-F03D-C925-545E56C8D19D}|Assembly-CSharp.csproj|C:\\UnityProjects\\Prohibition(Local GameJam)\\assets\\scripts\\interactables\\interactsystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0AA00FCE-1507-F03D-C925-545E56C8D19D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\interactables\\interactsystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0AA00FCE-1507-F03D-C925-545E56C8D19D}|Assembly-CSharp.csproj|D:\\Unity Projects\\Prohibition(Local GameJam)\\assets\\scripts\\interactables\\machines\\storage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0AA00FCE-1507-F03D-C925-545E56C8D19D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\interactables\\machines\\storage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0AA00FCE-1507-F03D-C925-545E56C8D19D}|Assembly-CSharp.csproj|C:\\UnityProjects\\Prohibition(Local GameJam)\\assets\\scripts\\interactables\\craftingitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0AA00FCE-1507-F03D-C925-545E56C8D19D}|Assembly-CSharp.csproj|d:\\unity projects\\prohibition(local gamejam)\\assets\\scripts\\managers\\sceneloader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0AA00FCE-1507-F03D-C925-545E56C8D19D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\managers\\sceneloader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0AA00FCE-1507-F03D-C925-545E56C8D19D}|Assembly-CSharp.csproj|D:\\Unity Projects\\Prohibition(Local GameJam)\\assets\\scripts\\interactables\\door.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0AA00FCE-1507-F03D-C925-545E56C8D19D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\interactables\\door.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0AA00FCE-1507-F03D-C925-545E56C8D19D}|Assembly-CSharp.csproj|D:\\Unity Projects\\Prohibition(Local GameJam)\\assets\\scripts\\interactables\\craftingitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0AA00FCE-1507-F03D-C925-545E56C8D19D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\interactables\\craftingitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0AA00FCE-1507-F03D-C925-545E56C8D19D}|Assembly-CSharp.csproj|C:\\UnityProjects\\Prohibition(Local GameJam)\\assets\\scripts\\interactables\\machines\\alcoholmachine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0AA00FCE-1507-F03D-C925-545E56C8D19D}|Assembly-CSharp.csproj|d:\\unity projects\\prohibition(local gamejam)\\assets\\scripts\\managers\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0AA00FCE-1507-F03D-C925-545E56C8D19D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\managers\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0AA00FCE-1507-F03D-C925-545E56C8D19D}|Assembly-CSharp.csproj|D:\\Unity Projects\\Prohibition(Local GameJam)\\assets\\scripts\\player\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0AA00FCE-1507-F03D-C925-545E56C8D19D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0AA00FCE-1507-F03D-C925-545E56C8D19D}|Assembly-CSharp.csproj|d:\\unity projects\\prohibition(local gamejam)\\assets\\ez camera shake\\scripts\\camerashaker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0AA00FCE-1507-F03D-C925-545E56C8D19D}|Assembly-CSharp.csproj|solutionrelative:assets\\ez camera shake\\scripts\\camerashaker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0AA00FCE-1507-F03D-C925-545E56C8D19D}|Assembly-CSharp.csproj|D:\\Unity Projects\\Prohibition(Local GameJam)\\assets\\scripts\\interactables\\interactsystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0AA00FCE-1507-F03D-C925-545E56C8D19D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\interactables\\interactsystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0AA00FCE-1507-F03D-C925-545E56C8D19D}|Assembly-CSharp.csproj|D:\\Unity Projects\\Prohibition(Local GameJam)\\assets\\scripts\\interactables\\machines\\alcoholmachine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0AA00FCE-1507-F03D-C925-545E56C8D19D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\interactables\\machines\\alcoholmachine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0AA00FCE-1507-F03D-C925-545E56C8D19D}|Assembly-CSharp.csproj|c:\\unityprojects\\prohibition(local gamejam)\\assets\\scripts\\interactables\\machines\\machine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0AA00FCE-1507-F03D-C925-545E56C8D19D}|Assembly-CSharp.csproj|D:\\Unity Projects\\Prohibition(Local GameJam)\\assets\\scripts\\interactables\\machines\\machine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0AA00FCE-1507-F03D-C925-545E56C8D19D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\interactables\\machines\\machine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0AA00FCE-1507-F03D-C925-545E56C8D19D}|Assembly-CSharp.csproj|C:\\UnityProjects\\Prohibition(Local GameJam)\\assets\\scripts\\interactables\\machines\\crusher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0AA00FCE-1507-F03D-C925-545E56C8D19D}|Assembly-CSharp.csproj|D:\\Unity Projects\\Prohibition(Local GameJam)\\assets\\scripts\\interactables\\machines\\crusher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0AA00FCE-1507-F03D-C925-545E56C8D19D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\interactables\\machines\\crusher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0AA00FCE-1507-F03D-C925-545E56C8D19D}|Assembly-CSharp.csproj|C:\\UnityProjects\\Prohibition(Local GameJam)\\assets\\scripts\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0AA00FCE-1507-F03D-C925-545E56C8D19D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,15 +54,93 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CameraShaker.cs",
+              "DocumentMoniker": "D:\\Unity Projects\\Prohibition(Local GameJam)\\Assets\\EZ Camera Shake\\Scripts\\CameraShaker.cs",
+              "RelativeDocumentMoniker": "Assets\\EZ Camera Shake\\Scripts\\CameraShaker.cs",
+              "ToolTip": "D:\\Unity Projects\\Prohibition(Local GameJam)\\Assets\\EZ Camera Shake\\Scripts\\CameraShaker.cs",
+              "RelativeToolTip": "Assets\\EZ Camera Shake\\Scripts\\CameraShaker.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACMAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-11T11:20:06.614Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SceneLoader.cs",
+              "DocumentMoniker": "D:\\Unity Projects\\Prohibition(Local GameJam)\\Assets\\Scripts\\Managers\\SceneLoader.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Managers\\SceneLoader.cs",
+              "ToolTip": "D:\\Unity Projects\\Prohibition(Local GameJam)\\Assets\\Scripts\\Managers\\SceneLoader.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Managers\\SceneLoader.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAQwCsAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-11T11:11:59.648Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Door.cs",
+              "DocumentMoniker": "D:\\Unity Projects\\Prohibition(Local GameJam)\\Assets\\Scripts\\Interactables\\Door.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Interactables\\Door.cs",
+              "ToolTip": "D:\\Unity Projects\\Prohibition(Local GameJam)\\Assets\\Scripts\\Interactables\\Door.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Interactables\\Door.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-11T10:53:59.964Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 4,
+              "Title": "GameManager.cs",
+              "DocumentMoniker": "D:\\Unity Projects\\Prohibition(Local GameJam)\\Assets\\Scripts\\Managers\\GameManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Managers\\GameManager.cs",
+              "ToolTip": "D:\\Unity Projects\\Prohibition(Local GameJam)\\Assets\\Scripts\\Managers\\GameManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Managers\\GameManager.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-11T11:08:47.666Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "PlayerMovement.cs",
+              "DocumentMoniker": "D:\\Unity Projects\\Prohibition(Local GameJam)\\Assets\\Scripts\\Player\\PlayerMovement.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\PlayerMovement.cs",
+              "ToolTip": "D:\\Unity Projects\\Prohibition(Local GameJam)\\Assets\\Scripts\\Player\\PlayerMovement.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Player\\PlayerMovement.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAQwCgAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-11T10:38:49.139Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Storage.cs",
+              "DocumentMoniker": "D:\\Unity Projects\\Prohibition(Local GameJam)\\Assets\\Scripts\\Interactables\\Machines\\Storage.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Interactables\\Machines\\Storage.cs",
+              "ToolTip": "D:\\Unity Projects\\Prohibition(Local GameJam)\\Assets\\Scripts\\Interactables\\Machines\\Storage.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Interactables\\Machines\\Storage.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAqwCgAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-11T10:21:18.136Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "Crusher.cs",
-              "DocumentMoniker": "C:\\UnityProjects\\Prohibition(Local GameJam)\\Assets\\Scripts\\Interactables\\Machines\\Crusher.cs",
+              "DocumentMoniker": "D:\\Unity Projects\\Prohibition(Local GameJam)\\Assets\\Scripts\\Interactables\\Machines\\Crusher.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Interactables\\Machines\\Crusher.cs",
-              "ToolTip": "C:\\UnityProjects\\Prohibition(Local GameJam)\\Assets\\Scripts\\Interactables\\Machines\\Crusher.cs",
+              "ToolTip": "D:\\Unity Projects\\Prohibition(Local GameJam)\\Assets\\Scripts\\Interactables\\Machines\\Crusher.cs",
               "RelativeToolTip": "Assets\\Scripts\\Interactables\\Machines\\Crusher.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -50,67 +148,52 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 8,
               "Title": "AlcoholMachine.cs",
-              "DocumentMoniker": "C:\\UnityProjects\\Prohibition(Local GameJam)\\Assets\\Scripts\\Interactables\\Machines\\AlcoholMachine.cs",
+              "DocumentMoniker": "D:\\Unity Projects\\Prohibition(Local GameJam)\\Assets\\Scripts\\Interactables\\Machines\\AlcoholMachine.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Interactables\\Machines\\AlcoholMachine.cs",
-              "ToolTip": "C:\\UnityProjects\\Prohibition(Local GameJam)\\Assets\\Scripts\\Interactables\\Machines\\AlcoholMachine.cs",
+              "ToolTip": "D:\\Unity Projects\\Prohibition(Local GameJam)\\Assets\\Scripts\\Interactables\\Machines\\AlcoholMachine.cs",
               "RelativeToolTip": "Assets\\Scripts\\Interactables\\Machines\\AlcoholMachine.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-09T07:23:22.131Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-09T07:23:22.131Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Machine.cs",
+              "DocumentMoniker": "D:\\Unity Projects\\Prohibition(Local GameJam)\\Assets\\Scripts\\Interactables\\Machines\\Machine.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Interactables\\Machines\\Machine.cs",
+              "ToolTip": "D:\\Unity Projects\\Prohibition(Local GameJam)\\Assets\\Scripts\\Interactables\\Machines\\Machine.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Interactables\\Machines\\Machine.cs",
+              "ViewState": "AQIAAGwAAAAAAAAAAAAAwI4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-09T05:56:53.832Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "Machine.cs",
-              "DocumentMoniker": "C:\\UnityProjects\\Prohibition(Local GameJam)\\Assets\\Scripts\\Interactables\\Machines\\Machine.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Interactables\\Machines\\Machine.cs",
-              "ToolTip": "C:\\UnityProjects\\Prohibition(Local GameJam)\\Assets\\Scripts\\Interactables\\Machines\\Machine.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Interactables\\Machines\\Machine.cs",
-              "ViewState": "AQIAAGwAAAAAAAAAAAAAwI4AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-09T05:56:53.832Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
               "Title": "CraftingItem.cs",
-              "DocumentMoniker": "C:\\UnityProjects\\Prohibition(Local GameJam)\\Assets\\Scripts\\Interactables\\CraftingItem.cs",
+              "DocumentMoniker": "D:\\Unity Projects\\Prohibition(Local GameJam)\\Assets\\Scripts\\Interactables\\CraftingItem.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Interactables\\CraftingItem.cs",
-              "ToolTip": "C:\\UnityProjects\\Prohibition(Local GameJam)\\Assets\\Scripts\\Interactables\\CraftingItem.cs",
+              "ToolTip": "D:\\Unity Projects\\Prohibition(Local GameJam)\\Assets\\Scripts\\Interactables\\CraftingItem.cs",
               "RelativeToolTip": "Assets\\Scripts\\Interactables\\CraftingItem.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAASAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACwAAAAaAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-09T03:36:21.603Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 7,
               "Title": "InteractSystem.cs",
-              "DocumentMoniker": "C:\\UnityProjects\\Prohibition(Local GameJam)\\Assets\\Scripts\\Interactables\\InteractSystem.cs",
+              "DocumentMoniker": "D:\\Unity Projects\\Prohibition(Local GameJam)\\Assets\\Scripts\\Interactables\\InteractSystem.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Interactables\\InteractSystem.cs",
-              "ToolTip": "C:\\UnityProjects\\Prohibition(Local GameJam)\\Assets\\Scripts\\Interactables\\InteractSystem.cs",
+              "ToolTip": "D:\\Unity Projects\\Prohibition(Local GameJam)\\Assets\\Scripts\\Interactables\\InteractSystem.cs",
               "RelativeToolTip": "Assets\\Scripts\\Interactables\\InteractSystem.cs",
-              "ViewState": "AQIAAIAAAAAAAAAAAAAswJkAAAAAAAAA",
+              "ViewState": "AQIAADkAAAAAAAAAAAAkwE0AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-09T03:34:36.28Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "PlayerMovement.cs",
-              "DocumentMoniker": "C:\\UnityProjects\\Prohibition(Local GameJam)\\Assets\\Scripts\\PlayerMovement.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerMovement.cs",
-              "ToolTip": "C:\\UnityProjects\\Prohibition(Local GameJam)\\Assets\\Scripts\\PlayerMovement.cs",
-              "RelativeToolTip": "Assets\\Scripts\\PlayerMovement.cs",
-              "ViewState": "AQIAADsAAAAAAAAAAAAuwCgAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-08T15:44:05.526Z"
+              "WhenOpened": "2024-06-09T03:34:36.28Z"
             }
           ]
         }
