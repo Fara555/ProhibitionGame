@@ -5,8 +5,15 @@
 [Bb]uilds/
 [Ll]ogs/
 [Uu]ser[Ss]ettings/
-LagunaProject/UserSettings/
-Assets/AssetStoreTools*
+
+
+[Mm]emoryCaptures/
+[Rr]ecordings/
+.gradle/
+*.apk
+*.aab
+*.unitypackage
+*.app
 
 # Visual Studio cache directory
 .vs/
@@ -31,6 +38,7 @@ ExportedObj/
 # Unity3D generated meta files
 *.pidb.meta
 *.pdb.meta
+*.mdb.meta
 
 # Unity3D Generated File On Crash Reports
 sysinfo.txt
@@ -39,3 +47,8 @@ sysinfo.txt
 *.apk
 *.unitypackage
 LagunaProject/.idea/.idea.LagunaProject/.idea/indexLayout.xml
+
+crashlytics-build.properties
+
+[Aa]ssets/[Aa]ddressable[Aa]ssets[Dd]ata/*/*.bin*
+
